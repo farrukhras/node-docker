@@ -5,4 +5,4 @@ FROM node:10
 COPY . .
 
 # Moving into the project directory and installing dependencies
-RUN cd node-docker cd server && npm install -g nodemon && npm install
+RUN cd node-docker && cd server && npm install -g nodemon && npm install
